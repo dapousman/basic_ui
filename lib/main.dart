@@ -105,6 +105,21 @@ class MyApp extends StatelessWidget {
                         ),
                       ],
                     ),
+                    Row(
+                      children: [
+                        Image.asset(
+                          'images/secret.jpg',
+                          width: 170,
+                        ),
+                        Container(
+                          padding: EdgeInsets.only(left: 10),
+                          margin: EdgeInsets.all(1),
+                          height: 97,
+                          alignment: Alignment.centerLeft,
+                          child: Text("Team Secret vs OG Dota 2 The International 10: Predictions, head-to-head, livestream details, and more"),
+                        ),
+                      ],
+                    ),
                     Container(
                       padding: EdgeInsets.all(14),
                       width: double.infinity,
